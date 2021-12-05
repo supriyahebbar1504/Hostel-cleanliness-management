@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.index{
+    width:1520px;
+    height: 800px;
+    background-size:cover;
+    background-position:center;
+    z-index:-1;
+    position: absolute;
+}
+.login{
+   width:593px;
+    height:600px;
+    background: black;
+    opacity:0.8;
+    color: blanchedalmond;
+    top:60%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding:70px 60px;
+    font-family:cursive;
+    border:3px ridge;
+    
+
+}
+.avtar{
+    width:150px;
+    length:150px;
+    position:absolute;
+    top:-50px;
+    left:calc(50% - 68px);
+}
+h1{
+    margin:0;
+    padding:54px 41px 3px;
+    text-align: center;
+    font-size: 27px;
+    font-family: cursive;
+}
+.login p{
+    margin:17px;
+    padding:7px;
+    font-weight: bold;
+    margin-left:-19px;
+    font-family: cursive;
+    font-size:20px;
+}
+.login input{
+    width:100%;
+    margin-bottom: 20px;
+    margin-left: -15px;
+    width:115%;
+}
+.login input[type="text"], input[type="password"], input[type="username"]{
+    border:none;
+    border-bottom: 2px solid white;
+    background:transparent;
+    outline: none;
+    height:22px;
+    color: solid white;
+    font-size:18px;
+    color: white;
+    width:478px;
+    padding-left:16px;
+
+}
+.login input[type="submit"]
+{
+    border:ridge;
+    outline:none;
+    height:40px;
+    background:rgb(243, 68, 97);
+    color:white;
+    border-radius: 50px;
+    width:199px;
+    padding:0px 0px 4px;
+    margin-top:47px;
+    margin-left:137px;
+    font-family: cursive;
+    font-size:28px;
+    height:50px;
+}
+.login input[type="submit"]:hover{
+cursor: pointer;
+border:ridge;
+border-color:black;
+background: rgb(202, 117, 177);
+color:white;
+}
+.login a{
+    text-decoration:none;
+    font-size: 15px;
+    line-height: 20px;
+    color:rgb(47, 183, 224);
+}
+.login a:hover{
+    color:darkgrey;
+    cursor: pointer;
+    
+}
+input[type="checkbox" ] {
+    background-color: initial;
+    cursor: default;
+    -webkit-appearance: checkbox;
+    box-sizing: border-box;
+    margin: 3px -257px 3px 4px;
+    padding: initial;
+    border: initial;
+    margin-left:-276px;
+
+}
+.login  input[type="submit"] :after {
+  content: "";
+  clear: both;
+  display: table;
+}
